@@ -9,12 +9,30 @@
   color: white;
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 0.5px;
+}
+
+.user-area {
+  display: flex;
+  align-items: center;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ml-2 {
+  margin-left: 10px;
 }
 
 .main-content {
